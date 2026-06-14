@@ -1,0 +1,37 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Large model weights (prevent committing gigabytes of model data)
+*.ckpt
+*.safetensors
+*.pth
+*.pt
+*.bin
+*.onnx
+model/
+models/*.ckpt
+models/*.safetensors
+models/*.pth
+models/*.pt
+models/*.bin
+models/*.onnx
+
+# Generated outputs
+output/*
+!output/.gitkeep
+
+# IDEs and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
